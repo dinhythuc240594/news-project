@@ -19,6 +19,7 @@ from newsapp import views
 
 urlpatterns = [
     path('', views.index, name ='index'),
+    path('view_news/', views.view_news, name ='view_news'),
     path('admin/', admin.site.urls),
     re_path(r'^tinymce/', include('tinymce.urls'))
 ]

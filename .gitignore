@@ -1,6 +1,4 @@
-/migrations
-*.py
+src/newsapp/migrations/*
 
-/__pycache__
+/__pycache__/
 *.pyc
-*.cpython-38.pyc
